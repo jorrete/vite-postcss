@@ -1,0 +1,24 @@
+{
+  "name": "vite",
+  "version": "2.8.0-beta.4",
+  "license": "MIT",
+  "author": "Evan You",
+  "description": "Native-ESM powered web dev build tool",
+  "bin": {
+    "vite": "bin/vite.js"
+  },
+  "main": "dist/node/index.js",
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "engines": {
+    "node": ">=12.2.0"
+  },
+  "dependencies": {
+    "esbuild": "^0.14.14",
+    "postcss": "^8.4.5",
+    "resolve": "^1.22.0",
+    "rollup": "^2.59.0"
+  }
+}
